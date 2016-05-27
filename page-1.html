@@ -32,12 +32,23 @@
         <div id="navbar" class="navbar-collapse collapse">
            
            <ul class="nav navbar-nav navbar-right">
-             <li class="active"><a href="#">Inicio</a></li>
-             <li class=""><a href="#">Individual</a></li>
-             <li class=""><a href="#">Familiar</a></li>
-             <li class=""><a href="#">Maternidad</a></li>
-             <li class=""><a href="#">Hombre solo</a></li>
-             <li class=""><a href="#">Buscar</a></li>
+             <li class="active"><a href="page-1.html">Inicio</a></li>
+             <li class=""><a href="#">Tipos</a></li>
+             <li class=""><a href="#">Familia</a></li>
+             <li class=""><a href="#">Sucursales</a></li>
+             <li class=""><a href="#">Repuestos</a></li>
+             <li class="">
+                    <form class="navbar-form" role="search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" name="q">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+              </li>
+             
+        
            </ul>
 
          </div>
@@ -51,13 +62,15 @@
 
 <div class="containe">
   <div class="row">
-        <figure class="col-md-4"><img class="img-responsive pequeña" src="img/auto/Logo_MainStreet.png"></figure>
+        <figure class="col-md-4">
+        <img class="img-responsive pequeña" src="img/auto/Logo_MainStreet.png">
+        </figure>
         
         <div class="col-md-6">
           <ul class="nav nav-pills navbar-left">
               <li role="presentation" ><a href="#">Inicio</a></li>
               <li role="presentation" ><a href="#">Nosotros</a></li>
-              <li role="presentation" ><a href="#">Autos</a></li>
+              <li role="presentation" ><a href="page-2.html">Modelos</a></li>
               <li role="presentation" ><a href="#">Accesorios</a></li>
               <li role="presentation" ><a href="#">Ventas</a></li>
           </ul>
@@ -122,40 +135,35 @@
 
 <div class="container">
   <div class="row">
-    <h1 align="center">Productos Destacados</h1>
-    </div>
-  </div>
+  <h1 align="center">Productos Destacados</h1>
+     <div class="col-sx-6 col-sm-4 col-md-4"><a href="page-3.html"><img class="img-responsive img-rounded" src="img/auto1.jpg" alt="Evento"></a></div>
+    <div class="col-sx-6 col-sm-4 col-md-4"><a href="page-4.html"><img class="img-responsive img-rounded" src="img/auto4.jpg" alt="Evento"></a></div>
+    <div class="col-sx-6 col-sm-4 col-md-4"><a href="page-5.html"><img class="img-responsive img-rounded" src="img/auto3.jpg" alt="Evento"></a></div>
 </div>
-
-<div class="row" >
-    <figure class="col-sm-4"><img class="img-responsive" src="img/auto1.jpg" alt="Evento"></figure>
-    <figure class="col-sm-4"><img class="img-responsive" src="img/auto2.jpg" alt="Evento"></figure>
-    <figure class="col-sm-4"><img class="img-responsive" src="img/auto3.jpg" alt="Evento"></figure>
 </div>
-
 <div class="col-sm-12 destacado">
-<p>* Destacados - Precio Internet. | ** Sólo productos seleccionados.</p></div>
+<p>* Destacados - Precio Internet. | ** Sólo productos seleccionados.</p>
+</div>
 
 
 
 
-<div class="container">
-<div class="row">
+<!--<div class="row">-->
   
-  <div class="col-sm-4 col-md-3">
+  <div class="col-sx-2 col-sm-4 col-md-2">
     <div class="thumbnail">
-      <img class="mediana" src="img/auto/auto_4.jpg" class="img-responsive" alt="Imagen_4">
+      <img class="mediana img-rounded" src="img/auto/auto_4.jpg" class="img-responsive" alt="Imagen_4">
       <div class="caption">
         <h3>Deportivo</h3>
         <p>Caracteristicas</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Caracteristicas</a></p>
+        <p><a href="#" class="btn btn-primary" role="button">Ver</a> <a href="#" class="btn btn-default" role="button">Caracteristicas</a></p>
       </div>
     </div>
     </div>
 
-  <div class="col-sm-4 col-md-3">
+  <div class="col-sx-2 col-sm-4 col-md-2">
     <div class="thumbnail">
-      <img class="mediana" src="img/auto/auto_3.jpg" alt="Imagen_3" >
+      <img class="mediana img-rounded" src="img/auto/auto_3.jpg" alt="Imagen_3" >
       <div class="caption">
         <h3>Deportivo</h3>
         <p>Caracteristicas</p>
@@ -164,9 +172,9 @@
     </div>
   </div>
 
-  <div class="col-sm-4 col-md-3">
+  <div class="col-sx-2 col-sm-4 col-md-2">
     <div class="thumbnail" >
-      <img class="mediana" src="img/auto/auto_2.jpg" alt="Imagen_2" >
+      <img class="mediana img-rounded" src="img/auto/auto_2.jpg" alt="Imagen_2" >
       <div class="caption">
         <h3>Deportivo</h3>
         <p>Caracteristicas</p>
@@ -175,9 +183,9 @@
     </div>
   </div>
 
-<div class="col-sm-4 col-md-3">
+<div class="col-sx-2 col-sm-4 col-md-2">
     <div class="thumbnail">
-      <img class="mediana" src="img/auto/auto_1.jpg"><!-- class="img-responsive" alt="Imagen responsive">-->
+      <img class="mediana img-rounded" src="img/auto/auto_1.jpg"><!-- class="img-responsive" alt="Imagen responsive">-->
       <div class="caption">
         <h3>Deportivo</h3>
         <p>Caracteristicas ultimos modelo</p>
@@ -185,20 +193,41 @@
         </div>
       </div>
     </div>
+
+    <div class="col-sx-2 col-sm-4 col-md-2">
+    <div class="thumbnail" >
+      <img class="mediana img-rounded" src="img/auto/auto_6.jpg" alt="Imagen_2" >
+      <div class="caption">
+        <h3>Deportivo</h3>
+        <p>Caracteristicas</p>
+        <p><a href="#" class="btn btn-primary" role="button">Ver</a> <a href="#" class="btn btn-default" role="button">Caracteristicas</a></p>
+      </div>
+    </div>
   </div>
-</div>
+
+ <div class="col-sx-2 col-sm-4 col-md-2">
+    <div class="thumbnail" >
+      <img class="mediana img-rounded" src="img/auto/auto_8.jpg" alt="Imagen_2" >
+      <div class="caption">
+        <h3>Deportivo</h3>
+        <p>Caracteristicas</p>
+        <p><a href="#" class="btn btn-primary" role="button">Ver</a> <a href="#" class="btn btn-default" role="button">Caracteristicas</a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+<!--</div>-->
                   
 <footer>
   <div id="footer">
-            <div class="container" >
+            
               <div class="row">
-               <div class="col-sm-3 col-md-3">
-               <img class="img-responsive" src="img/auto/Logo_MainStreet.png">
-               </div>
+                <div class="col-sm-3 col-md-3">
+                  <img class="img-responsive pequeña" src="img/auto/Logo_MainStreet.png">
+                </div>
 
                 <div class="col-sm-3 col-md-3">
-               
-                  <ul class="list-unstyled text-left">
+                    <ul class="list-unstyled text-left">
                     <li><a href="">Repuestos</a></li>
                     <li><a href="">Accesorios</a></li>
                     <li><a href="">Ventas</a></li>
@@ -215,20 +244,18 @@
                     <li><a href="">Sucursales</a></li>
                     <li><a href="">Contacto</a></li>
                   </ul>
-                  </div>
-                   <div class="col-sm-3 col-md-3">
+                </div>
+                
+                <div class="col-sm-3 col-md-3">
                   <ul class="list-unstyled text-left">
-                    <li><a href=""><span class="glyphicon glyphicon-envelope"></span></a></li>
-                    <li><a href=""><span class="glyphicon glyphicon-home"></span></a></li>
-                    <li><a href=""><span class="glyphicon glyphicon-phone-alt"></span></a></li>
-                    <li><a href=""><span class="glyphicon glyphicon-cloud"></span></a></li>
-                    
+                     <li><a href=""><span class="glyphicon glyphicon-envelope"></span></a></li>
+                     <li><a href=""><span class="glyphicon glyphicon-home"></span></a></li>
+                     <li><a href=""><span class="glyphicon glyphicon-phone-alt"></span></a></li>
+                     <li><a href=""><span class="glyphicon glyphicon-cloud"></span></a></li>
                   </ul>
-                  </div>
-                </div>        
-       
-            </div>
- </div>
+                </div>
+               </div>        
+  </div>
 </footer>
 
 
